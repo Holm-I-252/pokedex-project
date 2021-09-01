@@ -10,6 +10,11 @@ h1 {
   justify-content: center;
   font-family: "Rubik", sans-serif;
 }
+p {
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
 form {
   display: flex;
   justify-content: center;
