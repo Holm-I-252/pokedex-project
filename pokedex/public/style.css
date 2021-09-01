@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(253, 75, 75);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+input {
+  margin: 5px;
+}
+button {
+  margin: 5px;
+}
+div {
+  background-color: white;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 35%;
+  margin-top: 30px;
+  border-radius: 10%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+}
