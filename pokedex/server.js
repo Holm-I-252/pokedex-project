@@ -8,7 +8,7 @@ app.use(express.json());
 app.use("/style", express.static("./public/style.css"));
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "/public/index.html"));
+  res.sendFile(path.join(__dirname, "/public/main.html"));
 });
 
 let port = process.env.PORT || 5252;
